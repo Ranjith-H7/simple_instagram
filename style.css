@@ -1,0 +1,164 @@
+body {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.whole {
+    width: 500px;
+    height: 600px;
+    background-color: rgb(223, 219, 219);
+    margin: auto;
+}
+
+.header {
+    display: inline;
+    width: 400px;
+    height: 100px;
+    background-position: fixed;
+}
+
+.image {
+    margin-left: 0;
+    padding: 10px;
+    border-bottom: 1px solid rgb(136, 137, 136);
+    overflow: hidden;
+}
+
+.img1 {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 40px;
+    border: 3px solid #cc2366;
+    display: inline;
+}
+
+.text .text1 {
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+.txt2 {
+    margin-left: 65px;
+}
+
+.txt3 {
+    margin-left: 50px;
+}
+
+.txt4 {
+    margin-left: 30px;
+}
+
+.main {
+    height: 70px;
+    width: auto;
+    display: flex;
+}
+
+.location {
+    display: flex;
+    height: 70px;
+    width: auto;
+}
+
+.bodyty1 {
+    display: inline;
+    margin-left: 5px;
+    height: 70px;
+    width: 70px;
+    margin-top: 2px;
+}
+
+.info1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+.threecolon .three {
+    font-size: 30px;
+    margin-left: 300px;
+    content: "\205D";
+    margin-top: 10px;
+}
+
+.three {
+    content: "\205D";
+}
+
+.imgrcb {
+    object-fit: cover;
+    display: inline-block;
+}
+
+.rcb {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #cc2366;
+    margin: 10px 5px;
+    margin-left: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 5fr);
+    grid-auto-rows: 120px;
+    gap: 0px;
+}
+
+.grid-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.grid-item img {
+    width: 190px;
+    height: 150px;
+    object-fit: cover;
+}
+
+img:hover {
+    opacity: 0.7;
+}
+
+.body {
+    margin: auto;
+    justify-content: center;
+}
+
+.footer {
+    display: inline;
+}
+
+i {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+.fas {
+    margin-left: 30px;
+}
+
+.far {
+    margin-left: 35px;
+}
+
+.heart:hover {
+    color: #dc2743;
+}
